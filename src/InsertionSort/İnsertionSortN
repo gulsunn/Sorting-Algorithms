@@ -1,0 +1,16 @@
+{2,4,5,3,1,6} -> {2,4,5,5,1,6} -> {2,4,4,5,1,6} -> { 2,3,4,5,1,6}
+{ 2,3,4,5,1,6} -> { 2,3,4,5,5,6} -> {2,3,4,4,5,6} -> {2,3,3,4,5,6} -> {2,2,3,4,5,6} -> {1,2,3,4,5,6}
+
+
+Time Complexity :  en iyi durumda  O(n) ama en kötü durumda O(n^2)
+Memory Usage : O(1)
+
+
+
+Best : O(n)
+Worst : O (n^2)
+Memory Usage : O (1)
+
+// Sıralanmışa yakınsa bu selection sort tercih edilir
+
+// hiz istiyorsak quick memory e yuklenmeyeceksek insertion
